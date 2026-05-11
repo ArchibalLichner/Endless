@@ -1,0 +1,68 @@
+fileFormatVersion: 2
+guid: 2020fdde690c3254283a1e4940864bae
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: TextureSol 1/TextureSol 1
+    400000: TextureSol 1/TextureSol 1/Transform
+    2100000: mat.New_Graph
+    2300000: TextureSol 1/TextureSol 1/MeshRenderer
+    2800000: New_Graph_baseColor
+    2800002: New_Graph_normal
+    3300000: TextureSol 1/TextureSol 1/MeshFilter
+    11400000: sbsar
+    11400002: graph0
+    13500000: TextureSol 1/TextureSol 1/SphereCollider
+    100100000: TextureSol 1
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 13
+  mGraphInstanceData:
+  - graphLabel: New_Graph
+    prototypeName: New_Graph
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://New_Graph\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    textureParameters:
+    - textureName: New_Graph_baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: New_Graph_normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: New_Graph_roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {instanceID: 0}
+    generatedTextures: []
